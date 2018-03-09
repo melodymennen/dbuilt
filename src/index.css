@@ -33,3 +33,10 @@ body {
       display: flex; }
       .header_main-middle-left > div, .header_main-middle-right > div {
         padding: 0 20px; }
+
+.footer_body {
+  display: flex;
+  justify-content: space-around; }
+
+.loading_body {
+  text-align: center; }
