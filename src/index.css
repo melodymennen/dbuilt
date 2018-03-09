@@ -5,7 +5,7 @@ body {
   box-sizing: border-box; }
 
 .header_body {
-  border: 1px solid black; }
+  width: 100%; }
 
 .header_top-links {
   font-size: 12px;
@@ -13,7 +13,6 @@ body {
   text-transform: uppercase;
   background-color: #f0f0ed; }
   .header_top-links .link-container {
-    width: 85%;
     margin: auto;
     display: flex;
     justify-content: flex-end; }
@@ -22,3 +21,15 @@ body {
       margin: 10px 0;
       padding: 0 20px;
       border-left: 1px solid #777777; }
+
+.header_main {
+  line-height: 30px;
+  display: flex;
+  flex-direction: column; }
+  .header_main-middle {
+    display: inherit;
+    justify-content: space-between; }
+    .header_main-middle-left, .header_main-middle-right {
+      display: flex; }
+      .header_main-middle-left > div, .header_main-middle-right > div {
+        padding: 0 20px; }
